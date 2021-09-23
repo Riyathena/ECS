@@ -1,0 +1,411 @@
+/*General*/
+body{
+ /*background: #f2f3ee url('images/bg-tile.gif');*/
+ color:#4b2707;
+ font-size: 14px;
+ font-family: 'Open Sans','Helvetica Neue',Arial, Helvetica, sans-serif;
+ -webkit-font-smoothing: antialised;
+ text-rendering: optimizeLegibility;   
+}
+
+.container{
+    /*width:924px;*/
+    margin:0 auto;
+    padding:30px 24px;
+}
+
+
+
+/*img{
+    max-width: 100%;
+    height:auto;*/
+    
+
+
+/*Typography*/
+
+h1,h2 {
+    color: #d17f38;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'love Ya Like A Sister', cursive;
+    line-height: 44px;
+    margin:0;
+}
+
+h1{
+  text-align: center;
+  padding: 0 0 20px;
+  background:url('images/header-divider.png') bottom center no-repeat;  
+}
+
+h1 em{
+    font-style: normal;
+    color: #4b2707
+}
+
+h2{
+    font-size:34px;
+}
+
+header nav h1{
+    font-size: 20px;
+    text-align:left;
+    padding:40px 10px 10px 10px;
+    background:none;
+}
+
+
+p.lead{
+    font-size:30px;
+    font-weight:300;
+    text-align:center;
+    margin:10px 0;
+}
+
+p{
+    margin:0;
+}
+
+a:link{
+   color:#d17f38;
+}
+
+a:visited{
+    color:#d17f38;
+}
+
+a:hover{
+color:#12f037;
+}
+
+
+hr{
+    border:none;
+    height:33px;
+    width:333px;
+    margin:30px auto;
+    background: url('images/divider.png') center center no-repeat;
+}
+
+
+/*header*/
+/*header nav{
+    text-align: right;*/
+
+
+header nav h3{
+    text-align: left;
+    margin-left:10px;
+}
+
+header nav ul{
+   /* padding:10px 10px 10px 10px;
+    list-style: none;
+    display:block;
+   /* line-height: 141px;*/
+    text-align: right;
+    background: none;
+    
+}
+
+
+header nav ul li {
+    display: inline-block;
+    padding:0 20px;
+}
+
+header nav ul li a{
+text-transform: uppercase;
+text-decoration: none;
+font-weight:bold;
+}
+
+
+
+
+
+
+header nav ul li a:hover{
+color:#4b2707;
+padding-top:20px;
+background: black solid;
+}
+
+/*header nav ul li#logo a{
+    display:block;
+    width:292px;
+    height:100px;
+    background:url('images/logo1.png') center center no-repeat;
+    text-indent: -9999px;
+}*/
+
+
+ul li.drop-downIcon{
+    display: none;
+}
+
+
+@media screen and (max-width:680px){
+    ul li{
+        display:none;
+    }
+}
+
+
+/*header nav ul li#logo a:hover{
+padding:0;
+background:url('images/logo1.png') center center no-repeat;
+}*/
+
+#hero{
+    background: #e8c04f url('images/bg-tile-yellow.gif') top left repeat;
+    
+}
+
+
+#hero.container{
+    position: relative;
+}
+
+#hero.large-ribbon{
+    height:190px;
+    width:150px;
+    background: olive solid;
+    text-indent:-9999px;
+    position: absolute;
+    
+}
+
+/* The Whole Story */
+
+#story-excerpt{
+    width:530px;
+    margin-right: 24px;
+    float:left;
+    font-size:16px;
+}
+
+/*News & Events */
+
+#articles{
+  width: 370px;
+  float:left;
+  margin-right: 24px; 
+}
+
+
+#feature-image{
+    margin-top: 150px;
+    width:530px;
+    float:left;
+    
+}
+
+#news-events article{
+    margin: 20px 0;
+    padding-left:55px;
+}
+
+#news-events article.news{
+    background: url('images/icon-news.png') top left no-repeat;
+}
+
+
+#news-events article.event{
+    background: url('images/icon-calendar.png') top left no-repeat;
+}
+
+#news-events header time{
+color:#d17f38;
+font-size: 12px;  
+}
+
+#news-events section.excerpt {
+    margin:10px 0;
+}
+
+
+#news-events footer{
+font-size:12px;
+}
+
+
+
+
+
+
+/*Footer*/
+footer.main{
+    background:#4b2707 url('images/bg-tile-brown.gif') top left repeat;
+    color:#f2f3ee;
+    padding:30px 0;
+}
+
+footer.main:hover{
+    color:#f2f3ee;
+}
+#copyright, #credits{
+    width:240px;
+    float:left;
+    /*padding:10px 0 10px 50px;*/
+}
+
+#visit ul{
+        text-transform: uppercase;
+        
+        font-weight:bold;
+        text-align: center;
+        list-style: none;      
+        
+}
+
+#visit nav ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    display:block;
+    line-height: 141px;
+}
+
+#visit  nav ul li {
+    display: inline-block;
+    padding:0 20px;
+
+}
+
+#credits{
+   float:right;
+   padding-right: 0;
+}
+
+
+
+
+
+/*clearfix*/
+
+.clearfix:after{
+    visibility: hidden;
+    display:block;
+    content:"";
+    clear:both;
+    height:0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
