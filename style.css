@@ -6,12 +6,13 @@ body{
  font-family: 'Open Sans','Helvetica Neue',Arial, Helvetica, sans-serif;
  -webkit-font-smoothing: antialised;
  text-rendering: optimizeLegibility;   
+/* overflow-x: hidden;*/
 }
 
 .container{
-    /*width:924px;*/
+   /* width:500px;*/
     margin:auto;
-    padding:30px 24px;
+    /*padding:30px 24px;*/
 }
 
 
@@ -26,30 +27,31 @@ body{
 
 
 header.main{
-    background: #4b2707;
+    background: rgb(40, 139, 31);
     color:#f2f3ee;
-    padding: 30px 0;
-    display: block;  
-     
+    padding:20px;
     
 }
 
 
 .Head{
     text-transform: uppercase;
-    font-family:  'Open Sans','Helvetica Neue',Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial, Helvetica, sans-serif;
     font-weight: bold;
-    display: inline;
+    display:inline-block;
     color:white;
     font-size: 35px;
     background: none;
-   
+    padding:20px 0 0 0px;
+    font-style: italic;
+    text-shadow:5px 5px 5px white;
     
 }
 .logo{
-   width: 100px;
-   height: 100px;
+   width: 80px;
+   height: 80px;
    float:left;
+   
    
 }
 
@@ -59,16 +61,17 @@ h1,h2 {
     font-weight: normal;
     font-family: 'love Ya Like A Sister', cursive;
     line-height: 44px;
-    margin:0;
+    margin:5px;
 }
 
 h1{
   text-align: center;
-  padding: 0 0 20px;
+  padding: 5px 5px 20px;
   background:url('images/header-divider.png') bottom center no-repeat;  
 }
 
 h1 em{
+    margin-top:5px;
     font-style: normal;
     color: #4b2707
 }
@@ -98,7 +101,7 @@ a:visited{
 }
 
 a:hover{
-color:#12f037;
+color:white;
 }
 
 
@@ -111,43 +114,35 @@ hr{
 }
 
 
-/*header*/
-/*header nav{
-    text-align: right;*/
-
-
 header nav h3{
     text-align: left;
     margin-left:10px;
 }
 
 header nav ul{
-    /*padding:10px 10px 10px 10px;*/
+    padding:20px 0 0 20px;
     list-style: none;
-    display:block;
-   /* line-height: 141px;*/
-    text-align: right;
-    background: none;
     
+    line-height: 30px;
+    float: right;
+    background: none;
+   /* width:50%;*/
 }
 
 
 header nav ul li{
    display: inline-block;
-    padding:0 20px;
+   padding:0 10px 10px 0;
     
 }
 
 header nav ul li a{
 text-transform: uppercase;
-text-decoration: none;
+text-decoration:none;
 font-weight:bold;
+font-size:14px;
 
 }
-
-
-
-
 
 
 header nav ul li a:hover{
@@ -156,13 +151,6 @@ color:white;
 background:white solid;
 }
 
-/*header nav ul li#logo a{
-    display:block;
-    width:292px;
-    height:100px;
-    background:url('images/logo1.png') center center no-repeat;
-    text-indent: -9999px;
-}*/
 
 
 ul li.drop-downIcon{
@@ -177,38 +165,21 @@ ul li.drop-downIcon{
 }
 
 
-/*header nav ul li#logo a:hover{
-padding:0;
-background:url('images/logo1.png') center center no-repeat;
-}*/
-
 #hero{
-    background: #e8c04f url('images/bg-tile-yellow.gif') top left repeat;
+   /* background: #e8c04f url('images/bg-tile-yellow.gif') top left repeat;*/
+    margin:auto;
+    margin-top:10px;
     
 }
-
-
-#hero.container{
-    position: relative;
-}
-
 
 .image{
    display:block;
    margin-left: auto;
    margin-right:auto;
-   width:50%; 
    float:center;
+   
 }
 
-/*#hero.large-ribbon{
-    height:190px;
-    width:150px;
-    background: olive solid;
-    text-indent:-9999px;
-    position: absolute;
-    
-}
 
 /* The Whole Story */
 
@@ -230,7 +201,6 @@ background:url('images/logo1.png') center center no-repeat;
 
 #feature-image{
     margin-top: 150px;
-    width:650px;
     float:right;
     
 }
@@ -273,6 +243,7 @@ footer.main{
     background:#4b2707 url('images/bg-tile-brown.gif') top left repeat;
     color:#f2f3ee;
     padding:30px 0;
+    margin:3px;
 }
 
 footer.main:hover{
@@ -281,7 +252,7 @@ footer.main:hover{
 #copyright, #credits{
     width:240px;
     float:left;
-    /*padding:10px 0 10px 50px;*/
+    padding:10px 0 10px 50px;
 }
 
 #visit ul{
@@ -294,25 +265,30 @@ footer.main:hover{
 }
 
 #visit nav ul{
-    margin:0;
-    padding:0;
     list-style: none;
     display:block;
-    line-height: 141px;
+    padding:10px;
+  
 }
 
 #visit  nav ul li {
     display: inline-block;
-    padding:0 20px;
+    padding:0 10px 10px 0;
 
 }
+
+#visit nav ul li a:hover{
+    color:white;
+    }
 
 #credits{
    float:right;
    padding-right: 0;
 }
 
-
+#credits a:hover{
+    color:white;
+}
 
 
 
