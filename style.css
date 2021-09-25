@@ -10,7 +10,7 @@ body{
 
 .container{
     /*width:924px;*/
-    margin:0 auto;
+    margin:auto;
     padding:30px 24px;
 }
 
@@ -23,6 +23,35 @@ body{
 }
 
 /*Typography*/
+
+
+header.main{
+    background: #4b2707;
+    color:#f2f3ee;
+    padding: 30px 0;
+    display: block;  
+     
+    
+}
+
+
+.Head{
+    text-transform: uppercase;
+    font-family:  'Open Sans','Helvetica Neue',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline;
+    color:white;
+    font-size: 35px;
+    background: none;
+   
+    
+}
+.logo{
+   width: 100px;
+   height: 100px;
+   float:left;
+   
+}
 
 h1,h2 {
     color: #d17f38;
@@ -48,19 +77,12 @@ h2{
     font-size:34px;
 }
 
-header nav h1{
-    font-size: 20px;
-    text-align:left;
-    padding:40px 10px 10px 10px;
-    background:none;
-}
-
 
 p.lead{
-    font-size:30px;
+    font-size:20px;
     font-weight:300;
     text-align:center;
-    margin:10px 0;
+    margin:30px 0;
 }
 
 p{
@@ -100,7 +122,7 @@ header nav h3{
 }
 
 header nav ul{
-   /* padding:10px 10px 10px 10px;
+    /*padding:10px 10px 10px 10px;*/
     list-style: none;
     display:block;
    /* line-height: 141px;*/
@@ -110,15 +132,17 @@ header nav ul{
 }
 
 
-header nav ul li {
-    display: inline-block;
+header nav ul li{
+   display: inline-block;
     padding:0 20px;
+    
 }
 
 header nav ul li a{
 text-transform: uppercase;
 text-decoration: none;
 font-weight:bold;
+
 }
 
 
@@ -127,9 +151,9 @@ font-weight:bold;
 
 
 header nav ul li a:hover{
-color:#4b2707;
-padding-top:20px;
-background: black solid;
+color:white;
+/*padding-top:20px;*/
+background:white solid;
 }
 
 /*header nav ul li#logo a{
@@ -189,7 +213,7 @@ background:url('images/logo1.png') center center no-repeat;
 /* The Whole Story */
 
 #story-excerpt{
-    width:530px;
+    width:600px;
     margin-right: 24px;
     float:left;
     font-size:16px;
