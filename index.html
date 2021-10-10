@@ -21,16 +21,28 @@
                 <nav>
                    <h1 class="Head">Enlighten Career Solutions</h1>
                     <img src="images/logo1.png" alt="Enlighten Career Solutions" class="logo">
-                    <ul>
+                    <ul class="topnav" id="dropdownClick">
                         <li><a href="">Home</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">About Us</a></li>
                         <li><a href="">Location</a></li>
                         <li><a href="">Contact Us</a></li>
                         <li><a href="">Schedule a Demo</a></li>
-                        <li class= "drop-downIcon"><a href="">&#9776;</a></li>
+                        <li class= "drop-downIcon"><a href="" onclick="dropdownMenu">&#9776;</a></li>
                     </ul>
                 </nav>
+                <script>
+                    function dropdownMenu(){
+                        var x =document.getElementById("dropdownClick");
+                        if(x.className=== "topnav"){
+                            x.className+=" responsive";
+                            /*change topnav to topnav.responsive*/
+                        }
+                        else{
+                            x.className= "topnav";
+                        }
+                    }
+                </script>
             </header>
 
         </div>

@@ -27,7 +27,7 @@ body{
 
 
 header.main{
-    background: rgb(40, 139, 31);
+    background:-webkit-linear-gradient(#268b1d,#031402 );
     color:#f2f3ee;
     padding:20px;
     
@@ -146,7 +146,7 @@ font-size:14px;
 
 
 header nav ul li a:hover{
-color:white;
+color:black;
 /*padding-top:20px;*/
 background:white solid;
 }
@@ -159,10 +159,35 @@ ul li.drop-downIcon{
 
 
 @media screen and (max-width:680px){
-    ul li{
+    ul li:not(:nth-child(1)){
         display:none;
     }
+    ul.li.drop-downIcon{
+        display:block;
+    }
+    ul.topnav.reponsive li.drop-downIcon{
+        position:absolute;
+        top:0;
+        right:0;
+    }
+
+
+    ul.topnav.responsive{
+        position: relative;
+    }
+
+    ul.topnav.responsive.li{
+        display: inline;
+        float:none;
+    }
+    ul.topnav.responsive.li a{ 
+        display: block;
+        text-align: left;
+    }
+    
 }
+
+
 
 
 #hero{
