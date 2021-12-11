@@ -1,1 +1,5 @@
 to highlight: <mark></mark>
+
+== equal to
+=== compare datatype as well.
+!== not equal to.
